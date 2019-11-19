@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 class Question extends StatelessWidget {
   final String qustionText;
@@ -8,6 +9,7 @@ class Question extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
+      margin:  EdgeInsets.all(20),
       width: double.infinity ,
       child:
         Text(qustionText,
